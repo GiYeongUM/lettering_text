@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:lettering_text/text_animated.dart';
+import 'package:lettering_text/kr_text_animated.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage>
   @override
   void initState() {
     _animationController = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 700));
+        vsync: this, duration: const Duration(milliseconds: 2000));
     _animation = Tween<double>(begin: 0, end: 1).animate(CurvedAnimation(
         parent: _animationController, curve: Curves.easeInOutCirc));
     isOn = false;
@@ -78,12 +78,67 @@ class _MyHomePageState extends State<MyHomePage>
                   isOn ? _reverseIcon() : _showIcon();
 
                 },
-                child: TextAnimated(
-                  color: Colors.black,
-                  progress: _animation,
-                  size: 400,
-                  fontType: FontType.helvetica,
-
+                child: GridView.count(
+                  shrinkWrap: true,
+                  crossAxisCount: 3,
+                  children: [
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "가",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "나",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "다",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "라",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "마",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "바",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "사",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "아",
+                    ),
+                  ],
                 ),
               ),
 
