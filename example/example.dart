@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:lettering_text/text_animated.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,15 +29,37 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<MyHomePage>
+    with SingleTickerProviderStateMixin {
 
-  var myChildSize = Size.zero;
+  late AnimationController _animationController;
+  late Animation<double> _animation;
+  late bool isOn;
 
   @override
   void initState() {
+    _animationController = AnimationController(
+        vsync: this, duration: const Duration(milliseconds: 700));
+    _animation = Tween<double>(begin: 0, end: 1).animate(CurvedAnimation(
+        parent: _animationController, curve: Curves.easeInOutCirc));
+    isOn = false;
+    _showIcon();
     super.initState();
   }
 
+  void _showIcon() {
+    _animationController.forward();
+    setState(() {
+      isOn = true;
+    });
+  }
+
+  void _reverseIcon() {
+    _animationController.reverse();
+    setState(() {
+      isOn = false;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -50,14 +73,16 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
-              MeasureSize(
-                onChange: (Size size) {
-                  print(size.height);
-                  print(size.width);
+              InkWell(
+                onTap: (){
+                  isOn ? _reverseIcon() : _showIcon();
+
                 },
-                child: const Text(
-                  "A",
-                  style: TextStyle(fontSize: 12),
+                child: TextAnimated(
+                  color: Colors.black,
+                  progress: _animation,
+                  size: 400,
+                  fontType: FontType.helvetica,
 
                 ),
               ),
@@ -70,39 +95,3 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-typedef OnWidgetSizeChange = void Function(Size size);
-
-class MeasureSizeRenderObject extends RenderProxyBox {
-  Size? oldSize;
-  final OnWidgetSizeChange onChange;
-
-  MeasureSizeRenderObject(this.onChange);
-
-  @override
-  void performLayout() {
-    super.performLayout();
-
-    Size newSize = child!.size;
-    if (oldSize == newSize) return;
-
-    oldSize = newSize;
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      onChange(newSize);
-    });
-  }
-}
-
-class MeasureSize extends SingleChildRenderObjectWidget {
-  final OnWidgetSizeChange onChange;
-
-  const MeasureSize({
-    Key? key,
-    required this.onChange,
-    required Widget child,
-  }) : super(key: key, child: child);
-
-  @override
-  RenderObject createRenderObject(BuildContext context) {
-    return MeasureSizeRenderObject(onChange);
-  }
-}
