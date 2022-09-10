@@ -45,14 +45,9 @@ class KRTextAnimatedState extends State<KRTextAnimated>
         return CustomPaint(
             foregroundPainter: AnimatedNotoSansKRPathPainter(widget.progress,
                 widget.color ?? theme.primaryColor, widget.strokeWidth, widget.text),
-            child: MeasureSize(
-              onChange: (Size size) {
-                print(size);
-              },
-              child: SizedBox(
-                width: widget.size,
-                height: widget.size,
-              ),
+            child: SizedBox(
+              width: widget.size,
+              height: widget.size,
             ));
     }
   }
@@ -231,6 +226,116 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
           ..quadraticBezierTo(0.48 * size.width, 0.23 * size.height, 0.41 * size.width, 0.15 * size.height)
           ..quadraticBezierTo(0.41 * size.width, 0.15 * size.height, 0.31 * size.width, 0.12 * size.height)
 
+          ..moveTo(0.77 * size.width, 0.02 * size.height)
+          ..lineTo(0.77 * size.width, 0.98 * size.height)
+          ..moveTo(0.77 * size.width, 0.44 * size.height)
+          ..lineTo(0.95 * size.width, 0.44 * size.height);
+      case "자":
+        return Path()
+          ..moveTo(0.09 * size.width, 0.14 * size.height)
+          ..lineTo(0.58 * size.width, 0.14 * size.height)
+          ..moveTo(0.34 * size.width, 0.14 * size.height)
+          ..lineTo(0.335 * size.width, 0.36 * size.height)
+          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.285 * size.width, 0.485 * size.height)
+          ..quadraticBezierTo(0.285 * size.width, 0.485 * size.height, 0.235 * size.width, 0.585 * size.height)
+          ..quadraticBezierTo(0.235 * size.width, 0.585 * size.height, 0.16 * size.width, 0.67 * size.height)
+          ..quadraticBezierTo(0.16 * size.width, 0.67 * size.height, 0.08 * size.width, 0.74 * size.height)
+          ..moveTo(0.335 * size.width, 0.36 * size.height)
+          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.395 * size.width, 0.485 * size.height)
+          ..quadraticBezierTo(0.395 * size.width, 0.485 * size.height, 0.45 * size.width, 0.585 * size.height)
+          ..quadraticBezierTo(0.45 * size.width, 0.585 * size.height, 0.525 * size.width, 0.67 * size.height)
+          ..quadraticBezierTo(0.525 * size.width, 0.67 * size.height, 0.59 * size.width, 0.72 * size.height)
+
+          ..moveTo(0.77 * size.width, 0.02 * size.height)
+          ..lineTo(0.77 * size.width, 0.98 * size.height)
+          ..moveTo(0.77 * size.width, 0.44 * size.height)
+          ..lineTo(0.95 * size.width, 0.44 * size.height);
+      case "차":
+        return Path()
+          ..moveTo(0.34 * size.width, 0.10 * size.height)
+          ..lineTo(0.335 * size.width, 0.36 * size.height)
+          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.285 * size.width, 0.485 * size.height)
+          ..quadraticBezierTo(0.285 * size.width, 0.485 * size.height, 0.235 * size.width, 0.585 * size.height)
+          ..quadraticBezierTo(0.235 * size.width, 0.585 * size.height, 0.16 * size.width, 0.67 * size.height)
+          ..quadraticBezierTo(0.16 * size.width, 0.67 * size.height, 0.08 * size.width, 0.74 * size.height)
+          ..moveTo(0.335 * size.width, 0.36 * size.height)
+          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.395 * size.width, 0.485 * size.height)
+          ..quadraticBezierTo(0.395 * size.width, 0.485 * size.height, 0.45 * size.width, 0.585 * size.height)
+          ..quadraticBezierTo(0.45 * size.width, 0.585 * size.height, 0.525 * size.width, 0.67 * size.height)
+          ..quadraticBezierTo(0.525 * size.width, 0.67 * size.height, 0.59 * size.width, 0.72 * size.height)
+          ..moveTo(0.09 * size.width, 0.21 * size.height)
+          ..lineTo(0.58 * size.width, 0.21 * size.height)
+
+          ..moveTo(0.77 * size.width, 0.02 * size.height)
+          ..lineTo(0.77 * size.width, 0.98 * size.height)
+          ..moveTo(0.77 * size.width, 0.44 * size.height)
+          ..lineTo(0.95 * size.width, 0.44 * size.height);
+      case "카":
+        return Path()
+          ..moveTo(0.13 * size.width, 0.14 * size.height)
+          ..lineTo(0.52 * size.width, 0.14 * size.height)
+          ..quadraticBezierTo(0.52 * size.width, 0.14 * size.height, 0.515 * size.width, 0.195 * size.height)
+          ..quadraticBezierTo(0.515 * size.width, 0.195 * size.height, 0.51 * size.width, 0.2475 * size.height)
+          ..quadraticBezierTo(0.51 * size.width, 0.2475 * size.height, 0.50 * size.width, 0.30 * size.height)
+          ..quadraticBezierTo(0.50 * size.width, 0.30 * size.height, 0.485 * size.width, 0.355 * size.height)
+          ..quadraticBezierTo(0.485 * size.width, 0.355 * size.height, 0.475 * size.width, 0.385 * size.height)
+          ..quadraticBezierTo(0.475 * size.width, 0.385 * size.height, 0.445 * size.width, 0.455 * size.height)
+          ..quadraticBezierTo(0.445 * size.width, 0.455 * size.height, 0.395 * size.width, 0.545 * size.height)
+          ..quadraticBezierTo(0.395 * size.width, 0.545 * size.height, 0.335 * size.width, 0.615 * size.height)
+          ..quadraticBezierTo(0.335 * size.width, 0.615 * size.height, 0.265 * size.width, 0.685 * size.height)
+          ..quadraticBezierTo(0.265 * size.width, 0.685 * size.height, 0.18 * size.width, 0.74 * size.height)
+          ..quadraticBezierTo(0.18 * size.width, 0.74 * size.height, 0.105 * size.width, 0.785 * size.height)
+          ..moveTo(0.475 * size.width, 0.385 * size.height)
+          ..lineTo(0.095 * size.width, 0.415 * size.height)
+
+
+          ..moveTo(0.77 * size.width, 0.02 * size.height)
+          ..lineTo(0.77 * size.width, 0.98 * size.height)
+          ..moveTo(0.77 * size.width, 0.44 * size.height)
+          ..lineTo(0.95 * size.width, 0.44 * size.height);
+      case "타":
+        return Path()
+          ..moveTo(0.53 * size.width, 0.135 * size.height)
+          ..lineTo(0.135 * size.width, 0.135 * size.height)
+          ..lineTo(0.135 * size.width, 0.71 * size.height)
+          ..quadraticBezierTo(0.135 * size.width, 0.71 * size.height, 0.375 * size.width, 0.71 * size.height)
+          ..quadraticBezierTo(0.375 * size.width, 0.71 * size.height, 0.495 * size.width, 0.70 * size.height)
+          ..quadraticBezierTo(0.495 * size.width, 0.70 * size.height, 0.605 * size.width, 0.68 * size.height)
+          ..moveTo(0.135 * size.width, 0.405 * size.height)
+          ..lineTo(0.515 * size.width, 0.405 * size.height)
+
+          ..moveTo(0.77 * size.width, 0.02 * size.height)
+          ..lineTo(0.77 * size.width, 0.98 * size.height)
+          ..moveTo(0.77 * size.width, 0.44 * size.height)
+          ..lineTo(0.95 * size.width, 0.44 * size.height);
+      case "파":
+        return Path()
+          ..moveTo(0.075 * size.width, 0.145 * size.height)
+          ..lineTo(0.595 * size.width, 0.145 * size.height)
+          ..moveTo(0.215 * size.width, 0.145 * size.height)
+          ..lineTo(0.215 * size.width, 0.705 * size.height)
+          ..moveTo(0.465 * size.width, 0.145 * size.height)
+          ..lineTo(0.465 * size.width, 0.700 * size.height)
+          ..moveTo(0.055 * size.width, 0.715 * size.height)
+          ..quadraticBezierTo(0.055 * size.width, 0.715 * size.height, 0.205 * size.width, 0.71 * size.height)
+          ..quadraticBezierTo(0.205 * size.width, 0.71 * size.height, 0.35 * size.width, 0.705 * size.height)
+          ..quadraticBezierTo(0.35 * size.width, 0.705 * size.height, 0.50 * size.width, 0.695 * size.height)
+          ..quadraticBezierTo(0.50 * size.width, 0.695 * size.height, 0.65 * size.width, 0.68 * size.height)
+
+          ..moveTo(0.77 * size.width, 0.02 * size.height)
+          ..lineTo(0.77 * size.width, 0.98 * size.height)
+          ..moveTo(0.77 * size.width, 0.44 * size.height)
+          ..lineTo(0.95 * size.width, 0.44 * size.height);
+      case "하":
+        return Path()
+          ..moveTo(0.06 * size.width, 0.195 * size.height)
+          ..lineTo(0.615 * size.width, 0.195 * size.height)
+          ..moveTo(0.34 * size.width, 0.03 * size.height)
+          ..lineTo(0.34 * size.width, 0.195 * size.height)
+          ..addOval(Rect.fromCircle(
+            center: Offset(0.34 * size.width, 0.545 * size.height),
+            radius: 0.2 * size.width,
+          ))
 
           ..moveTo(0.77 * size.width, 0.02 * size.height)
           ..lineTo(0.77 * size.width, 0.98 * size.height)
