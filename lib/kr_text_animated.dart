@@ -101,246 +101,178 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
 
   Path _createAnyPath(Size size) {
     switch(text){
+      /// 가 ~ 하
       case "가":
-        return Path()
-          ..moveTo(0.11 * size.width, 0.145 * size.height)
-          ..lineTo(0.51 * size.width, 0.145 * size.height)
-          ..quadraticBezierTo(0.51 * size.width, 0.145 * size.height, 0.50 * size.width, 0.24 * size.height)
-          ..quadraticBezierTo(0.50 * size.width, 0.24 * size.height, 0.485 * size.width, 0.32 * size.height)
-          ..quadraticBezierTo(0.485 * size.width, 0.32 * size.height, 0.45 * size.width, 0.41 * size.height)
-          ..quadraticBezierTo(0.45 * size.width, 0.41 * size.height, 0.405 * size.width, 0.495 * size.height)
-          ..quadraticBezierTo(0.405 * size.width, 0.495 * size.height, 0.345 * size.width, 0.575 * size.height)
-          ..quadraticBezierTo(0.345 * size.width, 0.575 * size.height, 0.275 * size.width, 0.645 * size.height)
-          ..quadraticBezierTo(0.275 * size.width, 0.645 * size.height, 0.195 * size.width, 0.705 * size.height)
-          ..quadraticBezierTo(0.195 * size.width, 0.705 * size.height, 0.11 * size.width, 0.76 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㄱ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "나":
-        return Path()
-          ..moveTo(0.13 * size.width, 0.12 * size.height)
-          ..lineTo(0.13 * size.width, 0.705 * size.height)
-          ..quadraticBezierTo(0.13 * size.width, 0.705 * size.height, 0.25 * size.width, 0.705 * size.height)
-          ..quadraticBezierTo(0.25 * size.width, 0.705 * size.height, 0.375 * size.width, 0.70 * size.height)
-          ..quadraticBezierTo(0.375 * size.width, 0.70 * size.height, 0.50 * size.width, 0.685 * size.height)
-          ..quadraticBezierTo(0.50 * size.width, 0.685 * size.height, 0.615 * size.width, 0.665 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㄴ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "다":
-        return Path()
-          ..moveTo(0.53 * size.width, 0.135 * size.height)
-          ..lineTo(0.135 * size.width, 0.135 * size.height)
-          ..lineTo(0.135 * size.width, 0.71 * size.height)
-          ..quadraticBezierTo(0.135 * size.width, 0.71 * size.height, 0.375 * size.width, 0.71 * size.height)
-          ..quadraticBezierTo(0.375 * size.width, 0.71 * size.height, 0.495 * size.width, 0.70 * size.height)
-          ..quadraticBezierTo(0.495 * size.width, 0.70 * size.height, 0.605 * size.width, 0.68 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㄷ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "라":
-        return Path()
-          ..moveTo(0.105 * size.width, 0.13 * size.height)
-          ..lineTo(0.49 * size.width, 0.13 * size.height)
-          ..lineTo(0.49 * size.width, 0.415 * size.height)
-          ..lineTo(0.135 * size.width, 0.415 * size.height)
-          ..lineTo(0.135 * size.width, 0.71 * size.height)
-          ..quadraticBezierTo(0.135 * size.width, 0.71 * size.height, 0.375 * size.width, 0.71 * size.height)
-          ..quadraticBezierTo(0.375 * size.width, 0.71 * size.height, 0.495 * size.width, 0.70 * size.height)
-          ..quadraticBezierTo(0.495 * size.width, 0.70 * size.height, 0.605 * size.width, 0.68 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㄹ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "마":
-        return Path()
-          ..moveTo(0.13 * size.width, 0.135 * size.height)
-          ..lineTo(0.13 * size.width, 0.71 * size.height)
-          ..moveTo(0.13 * size.width, 0.135 * size.height)
-          ..lineTo(0.50 * size.width, 0.135 * size.height)
-          ..lineTo(0.50 * size.width, 0.71 * size.height)
-          ..moveTo(0.13 * size.width, 0.71 * size.height)
-          ..lineTo(0.50 * size.width, 0.71 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㅁ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "바":
-        return Path()
-          ..moveTo(0.13 * size.width, 0.11 * size.height)
-          ..lineTo(0.13 * size.width, 0.72 * size.height)
-          ..moveTo(0.51 * size.width, 0.11 * size.height)
-          ..lineTo(0.51 * size.width, 0.72 * size.height)
-          ..moveTo(0.13 * size.width, 0.38 * size.height)
-          ..lineTo(0.51 * size.width, 0.38 * size.height)
-          ..moveTo(0.13 * size.width, 0.72 * size.height)
-          ..lineTo(0.51 * size.width, 0.72 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㅂ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "사":
-        return Path()
-          ..moveTo(0.34 * size.width, 0.11 * size.height)
-          ..lineTo(0.335 * size.width, 0.36 * size.height)
-          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.285 * size.width, 0.485 * size.height)
-          ..quadraticBezierTo(0.285 * size.width, 0.485 * size.height, 0.235 * size.width, 0.585 * size.height)
-          ..quadraticBezierTo(0.235 * size.width, 0.585 * size.height, 0.16 * size.width, 0.67 * size.height)
-          ..quadraticBezierTo(0.16 * size.width, 0.67 * size.height, 0.08 * size.width, 0.74 * size.height)
-          ..moveTo(0.335 * size.width, 0.36 * size.height)
-          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.395 * size.width, 0.485 * size.height)
-          ..quadraticBezierTo(0.395 * size.width, 0.485 * size.height, 0.45 * size.width, 0.585 * size.height)
-          ..quadraticBezierTo(0.45 * size.width, 0.585 * size.height, 0.525 * size.width, 0.67 * size.height)
-          ..quadraticBezierTo(0.525 * size.width, 0.67 * size.height, 0.59 * size.width, 0.72 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㅅ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "아":
-        return Path()
-          ..moveTo(0.31 * size.width, 0.12 * size.height)
-          ..quadraticBezierTo(0.31 * size.width, 0.12 * size.height, 0.21 * size.width, 0.15 * size.height)
-          ..quadraticBezierTo(0.21 * size.width, 0.15 * size.height, 0.15 * size.width, 0.23 * size.height)
-          ..quadraticBezierTo(0.15 * size.width, 0.23 * size.height, 0.115 * size.width, 0.335 * size.height)
-          ..quadraticBezierTo(0.115 * size.width, 0.335 * size.height, 0.105 * size.width, 0.435 * size.height)
-          ..quadraticBezierTo(0.105 * size.width, 0.435 * size.height, 0.115 * size.width, 0.53 * size.height)
-          ..quadraticBezierTo(0.115 * size.width, 0.53 * size.height, 0.15 * size.width, 0.62 * size.height)
-          ..quadraticBezierTo(0.15 * size.width, 0.62 * size.height, 0.21 * size.width, 0.695 * size.height)
-          ..quadraticBezierTo(0.21 * size.width, 0.695 * size.height, 0.31 * size.width, 0.73 * size.height)
-          ..quadraticBezierTo(0.31 * size.width, 0.73 * size.height, 0.41 * size.width, 0.695 * size.height)
-          ..quadraticBezierTo(0.41 * size.width, 0.695 * size.height, 0.48 * size.width, 0.62 * size.height)
-          ..quadraticBezierTo(0.48 * size.width, 0.62 * size.height, 0.51 * size.width, 0.525 * size.height)
-          ..quadraticBezierTo(0.51 * size.width, 0.525 * size.height, 0.52 * size.width, 0.435 * size.height)
-          ..quadraticBezierTo(0.52 * size.width, 0.435 * size.height, 0.51 * size.width, 0.335 * size.height)
-          ..quadraticBezierTo(0.51 * size.width, 0.335 * size.height, 0.48 * size.width, 0.23 * size.height)
-          ..quadraticBezierTo(0.48 * size.width, 0.23 * size.height, 0.41 * size.width, 0.15 * size.height)
-          ..quadraticBezierTo(0.41 * size.width, 0.15 * size.height, 0.31 * size.width, 0.12 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㅇ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "자":
-        return Path()
-          ..moveTo(0.09 * size.width, 0.14 * size.height)
-          ..lineTo(0.58 * size.width, 0.14 * size.height)
-          ..moveTo(0.34 * size.width, 0.14 * size.height)
-          ..lineTo(0.335 * size.width, 0.36 * size.height)
-          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.285 * size.width, 0.485 * size.height)
-          ..quadraticBezierTo(0.285 * size.width, 0.485 * size.height, 0.235 * size.width, 0.585 * size.height)
-          ..quadraticBezierTo(0.235 * size.width, 0.585 * size.height, 0.16 * size.width, 0.67 * size.height)
-          ..quadraticBezierTo(0.16 * size.width, 0.67 * size.height, 0.08 * size.width, 0.74 * size.height)
-          ..moveTo(0.335 * size.width, 0.36 * size.height)
-          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.395 * size.width, 0.485 * size.height)
-          ..quadraticBezierTo(0.395 * size.width, 0.485 * size.height, 0.45 * size.width, 0.585 * size.height)
-          ..quadraticBezierTo(0.45 * size.width, 0.585 * size.height, 0.525 * size.width, 0.67 * size.height)
-          ..quadraticBezierTo(0.525 * size.width, 0.67 * size.height, 0.59 * size.width, 0.72 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㅈ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "차":
-        return Path()
-          ..moveTo(0.34 * size.width, 0.10 * size.height)
-          ..lineTo(0.335 * size.width, 0.36 * size.height)
-          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.285 * size.width, 0.485 * size.height)
-          ..quadraticBezierTo(0.285 * size.width, 0.485 * size.height, 0.235 * size.width, 0.585 * size.height)
-          ..quadraticBezierTo(0.235 * size.width, 0.585 * size.height, 0.16 * size.width, 0.67 * size.height)
-          ..quadraticBezierTo(0.16 * size.width, 0.67 * size.height, 0.08 * size.width, 0.74 * size.height)
-          ..moveTo(0.335 * size.width, 0.36 * size.height)
-          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.395 * size.width, 0.485 * size.height)
-          ..quadraticBezierTo(0.395 * size.width, 0.485 * size.height, 0.45 * size.width, 0.585 * size.height)
-          ..quadraticBezierTo(0.45 * size.width, 0.585 * size.height, 0.525 * size.width, 0.67 * size.height)
-          ..quadraticBezierTo(0.525 * size.width, 0.67 * size.height, 0.59 * size.width, 0.72 * size.height)
-          ..moveTo(0.09 * size.width, 0.21 * size.height)
-          ..lineTo(0.58 * size.width, 0.21 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㅊ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "카":
-        return Path()
-          ..moveTo(0.13 * size.width, 0.14 * size.height)
-          ..lineTo(0.52 * size.width, 0.14 * size.height)
-          ..quadraticBezierTo(0.52 * size.width, 0.14 * size.height, 0.515 * size.width, 0.195 * size.height)
-          ..quadraticBezierTo(0.515 * size.width, 0.195 * size.height, 0.51 * size.width, 0.2475 * size.height)
-          ..quadraticBezierTo(0.51 * size.width, 0.2475 * size.height, 0.50 * size.width, 0.30 * size.height)
-          ..quadraticBezierTo(0.50 * size.width, 0.30 * size.height, 0.485 * size.width, 0.355 * size.height)
-          ..quadraticBezierTo(0.485 * size.width, 0.355 * size.height, 0.475 * size.width, 0.385 * size.height)
-          ..quadraticBezierTo(0.475 * size.width, 0.385 * size.height, 0.445 * size.width, 0.455 * size.height)
-          ..quadraticBezierTo(0.445 * size.width, 0.455 * size.height, 0.395 * size.width, 0.545 * size.height)
-          ..quadraticBezierTo(0.395 * size.width, 0.545 * size.height, 0.335 * size.width, 0.615 * size.height)
-          ..quadraticBezierTo(0.335 * size.width, 0.615 * size.height, 0.265 * size.width, 0.685 * size.height)
-          ..quadraticBezierTo(0.265 * size.width, 0.685 * size.height, 0.18 * size.width, 0.74 * size.height)
-          ..quadraticBezierTo(0.18 * size.width, 0.74 * size.height, 0.105 * size.width, 0.785 * size.height)
-          ..moveTo(0.475 * size.width, 0.385 * size.height)
-          ..lineTo(0.095 * size.width, 0.415 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㅋ", size, Path()));
 
-
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "타":
-        return Path()
-          ..moveTo(0.53 * size.width, 0.135 * size.height)
-          ..lineTo(0.135 * size.width, 0.135 * size.height)
-          ..lineTo(0.135 * size.width, 0.71 * size.height)
-          ..quadraticBezierTo(0.135 * size.width, 0.71 * size.height, 0.375 * size.width, 0.71 * size.height)
-          ..quadraticBezierTo(0.375 * size.width, 0.71 * size.height, 0.495 * size.width, 0.70 * size.height)
-          ..quadraticBezierTo(0.495 * size.width, 0.70 * size.height, 0.605 * size.width, 0.68 * size.height)
-          ..moveTo(0.135 * size.width, 0.405 * size.height)
-          ..lineTo(0.515 * size.width, 0.405 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㅌ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "파":
-        return Path()
-          ..moveTo(0.075 * size.width, 0.145 * size.height)
-          ..lineTo(0.595 * size.width, 0.145 * size.height)
-          ..moveTo(0.215 * size.width, 0.145 * size.height)
-          ..lineTo(0.215 * size.width, 0.705 * size.height)
-          ..moveTo(0.465 * size.width, 0.145 * size.height)
-          ..lineTo(0.465 * size.width, 0.700 * size.height)
-          ..moveTo(0.055 * size.width, 0.715 * size.height)
-          ..quadraticBezierTo(0.055 * size.width, 0.715 * size.height, 0.205 * size.width, 0.71 * size.height)
-          ..quadraticBezierTo(0.205 * size.width, 0.71 * size.height, 0.35 * size.width, 0.705 * size.height)
-          ..quadraticBezierTo(0.35 * size.width, 0.705 * size.height, 0.50 * size.width, 0.695 * size.height)
-          ..quadraticBezierTo(0.50 * size.width, 0.695 * size.height, 0.65 * size.width, 0.68 * size.height)
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㅍ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
       case "하":
-        return Path()
-          ..moveTo(0.06 * size.width, 0.195 * size.height)
-          ..lineTo(0.615 * size.width, 0.195 * size.height)
-          ..moveTo(0.34 * size.width, 0.03 * size.height)
-          ..lineTo(0.34 * size.width, 0.195 * size.height)
-          ..addOval(Rect.fromCircle(
-            center: Offset(0.34 * size.width, 0.545 * size.height),
-            radius: 0.2 * size.width,
-          ))
+        return krWordPathTwoWord("ㅏ", size, krWordPathTwoWord("ㅎ", size, Path()));
 
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
+      /// 갸 ~ 햐
+      case "갸":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㄱ", size, Path()));
+
+      case "냐":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㄴ", size, Path()));
+
+      case "댜":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㄷ", size, Path()));
+
+      case "랴":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㄹ", size, Path()));
+
+      case "먀":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㅁ", size, Path()));
+
+      case "뱌":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㅂ", size, Path()));
+
+      case "샤":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㅅ", size, Path()));
+
+      case "야":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㅇ", size, Path()));
+
+      case "쟈":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㅈ", size, Path()));
+
+      case "챠":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㅊ", size, Path()));
+
+      case "캬":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㅋ", size, Path()));
+
+      case "탸":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㅌ", size, Path()));
+
+      case "퍄":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㅍ", size, Path()));
+
+      case "햐":
+        return krWordPathTwoWord("ㅑ", size, krWordPathTwoWord("ㅎ", size, Path()));
+
+    /// 거 ~ 허
+      case "거":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㄱ", size, Path()));
+
+      case "너":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㄴ", size, Path()));
+
+      case "더":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㄷ", size, Path()));
+
+      case "러":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㄹ", size, Path()));
+
+      case "머":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅁ", size, Path()));
+
+      case "버":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅂ", size, Path()));
+
+      case "서":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅅ", size, Path()));
+
+      case "어":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅇ", size, Path()));
+
+      case "저":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅈ", size, Path()));
+
+      case "처":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅊ", size, Path()));
+
+      case "커":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅋ", size, Path()));
+
+      case "터":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅌ", size, Path()));
+
+      case "퍼":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅍ", size, Path()));
+
+      case "허":
+        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅎ", size, Path()));
+
+      /// 겨 ~ 혀
+      case "겨":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㄱ", size, Path()));
+
+      case "녀":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㄴ", size, Path()));
+
+      case "뎌":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㄷ", size, Path()));
+
+      case "려":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㄹ", size, Path()));
+
+      case "며":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅁ", size, Path()));
+
+      case "벼":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅂ", size, Path()));
+
+      case "셔":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅅ", size, Path()));
+
+      case "여":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅇ", size, Path()));
+
+      case "져":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅈ", size, Path()));
+
+      case "쳐":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅊ", size, Path()));
+
+      case "켜":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅋ", size, Path()));
+
+      case "텨":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅌ", size, Path()));
+
+      case "펴":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅍ", size, Path()));
+
+      case "혀":
+        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅎ", size, Path()));
+
       default:
         return Path()
           ..moveTo(0.13 * size.width, 0.12 * size.height)
@@ -362,6 +294,210 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
     final currentLength = totalLength * animationPercent;
 
     return extractPathUntilLength(originalPath, currentLength);
+  }
+
+  Path krWordPathTwoWord(String text, Size size, Path path){
+    switch(text){
+      case "ㄱ":
+        return Path()
+          ..moveTo(0.11 * size.width, 0.145 * size.height)
+          ..lineTo(0.51 * size.width, 0.145 * size.height)
+          ..quadraticBezierTo(0.51 * size.width, 0.145 * size.height, 0.50 * size.width, 0.24 * size.height)
+          ..quadraticBezierTo(0.50 * size.width, 0.24 * size.height, 0.485 * size.width, 0.32 * size.height)
+          ..quadraticBezierTo(0.485 * size.width, 0.32 * size.height, 0.45 * size.width, 0.41 * size.height)
+          ..quadraticBezierTo(0.45 * size.width, 0.41 * size.height, 0.405 * size.width, 0.495 * size.height)
+          ..quadraticBezierTo(0.405 * size.width, 0.495 * size.height, 0.345 * size.width, 0.575 * size.height)
+          ..quadraticBezierTo(0.345 * size.width, 0.575 * size.height, 0.275 * size.width, 0.645 * size.height)
+          ..quadraticBezierTo(0.275 * size.width, 0.645 * size.height, 0.195 * size.width, 0.705 * size.height)
+          ..quadraticBezierTo(0.195 * size.width, 0.705 * size.height, 0.11 * size.width, 0.76 * size.height);
+      case "ㄴ":
+        return Path()
+          ..moveTo(0.13 * size.width, 0.12 * size.height)
+          ..lineTo(0.13 * size.width, 0.705 * size.height)
+          ..quadraticBezierTo(0.13 * size.width, 0.705 * size.height, 0.25 * size.width, 0.705 * size.height)
+          ..quadraticBezierTo(0.25 * size.width, 0.705 * size.height, 0.375 * size.width, 0.70 * size.height)
+          ..quadraticBezierTo(0.375 * size.width, 0.70 * size.height, 0.50 * size.width, 0.685 * size.height)
+          ..quadraticBezierTo(0.50 * size.width, 0.685 * size.height, 0.615 * size.width, 0.665 * size.height);
+      case "ㄷ":
+        return Path()
+          ..moveTo(0.53 * size.width, 0.135 * size.height)
+          ..lineTo(0.135 * size.width, 0.135 * size.height)
+          ..lineTo(0.135 * size.width, 0.71 * size.height)
+          ..quadraticBezierTo(0.135 * size.width, 0.71 * size.height, 0.375 * size.width, 0.71 * size.height)
+          ..quadraticBezierTo(0.375 * size.width, 0.71 * size.height, 0.495 * size.width, 0.70 * size.height)
+          ..quadraticBezierTo(0.495 * size.width, 0.70 * size.height, 0.605 * size.width, 0.68 * size.height);
+      case "ㄹ":
+        return Path()
+          ..moveTo(0.105 * size.width, 0.13 * size.height)
+          ..lineTo(0.49 * size.width, 0.13 * size.height)
+          ..lineTo(0.49 * size.width, 0.415 * size.height)
+          ..lineTo(0.135 * size.width, 0.415 * size.height)
+          ..lineTo(0.135 * size.width, 0.71 * size.height)
+          ..quadraticBezierTo(0.135 * size.width, 0.71 * size.height, 0.375 * size.width, 0.71 * size.height)
+          ..quadraticBezierTo(0.375 * size.width, 0.71 * size.height, 0.495 * size.width, 0.70 * size.height)
+          ..quadraticBezierTo(0.495 * size.width, 0.70 * size.height, 0.605 * size.width, 0.68 * size.height);
+      case "ㅁ":
+        return Path()
+          ..moveTo(0.13 * size.width, 0.135 * size.height)
+          ..lineTo(0.13 * size.width, 0.71 * size.height)
+          ..moveTo(0.13 * size.width, 0.135 * size.height)
+          ..lineTo(0.50 * size.width, 0.135 * size.height)
+          ..lineTo(0.50 * size.width, 0.71 * size.height)
+          ..moveTo(0.13 * size.width, 0.71 * size.height)
+          ..lineTo(0.50 * size.width, 0.71 * size.height);
+      case "ㅂ":
+        return Path()
+          ..moveTo(0.13 * size.width, 0.11 * size.height)
+          ..lineTo(0.13 * size.width, 0.72 * size.height)
+          ..moveTo(0.51 * size.width, 0.11 * size.height)
+          ..lineTo(0.51 * size.width, 0.72 * size.height)
+          ..moveTo(0.13 * size.width, 0.38 * size.height)
+          ..lineTo(0.51 * size.width, 0.38 * size.height)
+          ..moveTo(0.13 * size.width, 0.72 * size.height)
+          ..lineTo(0.51 * size.width, 0.72 * size.height);
+      case "ㅅ":
+        return Path()
+          ..moveTo(0.34 * size.width, 0.11 * size.height)
+          ..lineTo(0.335 * size.width, 0.36 * size.height)
+          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.285 * size.width, 0.485 * size.height)
+          ..quadraticBezierTo(0.285 * size.width, 0.485 * size.height, 0.235 * size.width, 0.585 * size.height)
+          ..quadraticBezierTo(0.235 * size.width, 0.585 * size.height, 0.16 * size.width, 0.67 * size.height)
+          ..quadraticBezierTo(0.16 * size.width, 0.67 * size.height, 0.08 * size.width, 0.74 * size.height)
+          ..moveTo(0.335 * size.width, 0.36 * size.height)
+          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.395 * size.width, 0.485 * size.height)
+          ..quadraticBezierTo(0.395 * size.width, 0.485 * size.height, 0.45 * size.width, 0.585 * size.height)
+          ..quadraticBezierTo(0.45 * size.width, 0.585 * size.height, 0.525 * size.width, 0.67 * size.height)
+          ..quadraticBezierTo(0.525 * size.width, 0.67 * size.height, 0.59 * size.width, 0.72 * size.height);
+      case "ㅇ":
+        return Path()
+          ..moveTo(0.31 * size.width, 0.12 * size.height)
+          ..quadraticBezierTo(0.31 * size.width, 0.12 * size.height, 0.21 * size.width, 0.15 * size.height)
+          ..quadraticBezierTo(0.21 * size.width, 0.15 * size.height, 0.15 * size.width, 0.23 * size.height)
+          ..quadraticBezierTo(0.15 * size.width, 0.23 * size.height, 0.115 * size.width, 0.335 * size.height)
+          ..quadraticBezierTo(0.115 * size.width, 0.335 * size.height, 0.105 * size.width, 0.435 * size.height)
+          ..quadraticBezierTo(0.105 * size.width, 0.435 * size.height, 0.115 * size.width, 0.53 * size.height)
+          ..quadraticBezierTo(0.115 * size.width, 0.53 * size.height, 0.15 * size.width, 0.62 * size.height)
+          ..quadraticBezierTo(0.15 * size.width, 0.62 * size.height, 0.21 * size.width, 0.695 * size.height)
+          ..quadraticBezierTo(0.21 * size.width, 0.695 * size.height, 0.31 * size.width, 0.73 * size.height)
+          ..quadraticBezierTo(0.31 * size.width, 0.73 * size.height, 0.41 * size.width, 0.695 * size.height)
+          ..quadraticBezierTo(0.41 * size.width, 0.695 * size.height, 0.48 * size.width, 0.62 * size.height)
+          ..quadraticBezierTo(0.48 * size.width, 0.62 * size.height, 0.51 * size.width, 0.525 * size.height)
+          ..quadraticBezierTo(0.51 * size.width, 0.525 * size.height, 0.52 * size.width, 0.435 * size.height)
+          ..quadraticBezierTo(0.52 * size.width, 0.435 * size.height, 0.51 * size.width, 0.335 * size.height)
+          ..quadraticBezierTo(0.51 * size.width, 0.335 * size.height, 0.48 * size.width, 0.23 * size.height)
+          ..quadraticBezierTo(0.48 * size.width, 0.23 * size.height, 0.41 * size.width, 0.15 * size.height)
+          ..quadraticBezierTo(0.41 * size.width, 0.15 * size.height, 0.31 * size.width, 0.12 * size.height);
+      case "ㅈ":
+        return Path()
+          ..moveTo(0.09 * size.width, 0.14 * size.height)
+          ..lineTo(0.58 * size.width, 0.14 * size.height)
+          ..moveTo(0.34 * size.width, 0.14 * size.height)
+          ..lineTo(0.335 * size.width, 0.36 * size.height)
+          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.285 * size.width, 0.485 * size.height)
+          ..quadraticBezierTo(0.285 * size.width, 0.485 * size.height, 0.235 * size.width, 0.585 * size.height)
+          ..quadraticBezierTo(0.235 * size.width, 0.585 * size.height, 0.16 * size.width, 0.67 * size.height)
+          ..quadraticBezierTo(0.16 * size.width, 0.67 * size.height, 0.08 * size.width, 0.74 * size.height)
+          ..moveTo(0.335 * size.width, 0.36 * size.height)
+          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.395 * size.width, 0.485 * size.height)
+          ..quadraticBezierTo(0.395 * size.width, 0.485 * size.height, 0.45 * size.width, 0.585 * size.height)
+          ..quadraticBezierTo(0.45 * size.width, 0.585 * size.height, 0.525 * size.width, 0.67 * size.height)
+          ..quadraticBezierTo(0.525 * size.width, 0.67 * size.height, 0.59 * size.width, 0.72 * size.height);
+      case "ㅊ":
+        return Path()
+          ..moveTo(0.34 * size.width, 0.10 * size.height)
+          ..lineTo(0.335 * size.width, 0.36 * size.height)
+          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.285 * size.width, 0.485 * size.height)
+          ..quadraticBezierTo(0.285 * size.width, 0.485 * size.height, 0.235 * size.width, 0.585 * size.height)
+          ..quadraticBezierTo(0.235 * size.width, 0.585 * size.height, 0.16 * size.width, 0.67 * size.height)
+          ..quadraticBezierTo(0.16 * size.width, 0.67 * size.height, 0.08 * size.width, 0.74 * size.height)
+          ..moveTo(0.335 * size.width, 0.36 * size.height)
+          ..quadraticBezierTo(0.335 * size.width, 0.36 * size.height, 0.395 * size.width, 0.485 * size.height)
+          ..quadraticBezierTo(0.395 * size.width, 0.485 * size.height, 0.45 * size.width, 0.585 * size.height)
+          ..quadraticBezierTo(0.45 * size.width, 0.585 * size.height, 0.525 * size.width, 0.67 * size.height)
+          ..quadraticBezierTo(0.525 * size.width, 0.67 * size.height, 0.59 * size.width, 0.72 * size.height)
+          ..moveTo(0.09 * size.width, 0.21 * size.height)
+          ..lineTo(0.58 * size.width, 0.21 * size.height);
+      case "ㅋ":
+        return Path()
+          ..moveTo(0.13 * size.width, 0.14 * size.height)
+          ..lineTo(0.52 * size.width, 0.14 * size.height)
+          ..quadraticBezierTo(0.52 * size.width, 0.14 * size.height, 0.515 * size.width, 0.195 * size.height)
+          ..quadraticBezierTo(0.515 * size.width, 0.195 * size.height, 0.51 * size.width, 0.2475 * size.height)
+          ..quadraticBezierTo(0.51 * size.width, 0.2475 * size.height, 0.50 * size.width, 0.30 * size.height)
+          ..quadraticBezierTo(0.50 * size.width, 0.30 * size.height, 0.485 * size.width, 0.355 * size.height)
+          ..quadraticBezierTo(0.485 * size.width, 0.355 * size.height, 0.475 * size.width, 0.385 * size.height)
+          ..quadraticBezierTo(0.475 * size.width, 0.385 * size.height, 0.445 * size.width, 0.455 * size.height)
+          ..quadraticBezierTo(0.445 * size.width, 0.455 * size.height, 0.395 * size.width, 0.545 * size.height)
+          ..quadraticBezierTo(0.395 * size.width, 0.545 * size.height, 0.335 * size.width, 0.615 * size.height)
+          ..quadraticBezierTo(0.335 * size.width, 0.615 * size.height, 0.265 * size.width, 0.685 * size.height)
+          ..quadraticBezierTo(0.265 * size.width, 0.685 * size.height, 0.18 * size.width, 0.74 * size.height)
+          ..quadraticBezierTo(0.18 * size.width, 0.74 * size.height, 0.105 * size.width, 0.785 * size.height)
+          ..moveTo(0.475 * size.width, 0.385 * size.height)
+          ..lineTo(0.095 * size.width, 0.415 * size.height);
+      case "ㅌ":
+        return Path()
+          ..moveTo(0.53 * size.width, 0.135 * size.height)
+          ..lineTo(0.135 * size.width, 0.135 * size.height)
+          ..lineTo(0.135 * size.width, 0.71 * size.height)
+          ..quadraticBezierTo(0.135 * size.width, 0.71 * size.height, 0.375 * size.width, 0.71 * size.height)
+          ..quadraticBezierTo(0.375 * size.width, 0.71 * size.height, 0.495 * size.width, 0.70 * size.height)
+          ..quadraticBezierTo(0.495 * size.width, 0.70 * size.height, 0.605 * size.width, 0.68 * size.height)
+          ..moveTo(0.135 * size.width, 0.405 * size.height)
+          ..lineTo(0.515 * size.width, 0.405 * size.height);
+      case "ㅍ":
+        return Path()
+          ..moveTo(0.075 * size.width, 0.145 * size.height)
+          ..lineTo(0.595 * size.width, 0.145 * size.height)
+          ..moveTo(0.215 * size.width, 0.145 * size.height)
+          ..lineTo(0.215 * size.width, 0.705 * size.height)
+          ..moveTo(0.465 * size.width, 0.145 * size.height)
+          ..lineTo(0.465 * size.width, 0.700 * size.height)
+          ..moveTo(0.055 * size.width, 0.715 * size.height)
+          ..quadraticBezierTo(0.055 * size.width, 0.715 * size.height, 0.205 * size.width, 0.71 * size.height)
+          ..quadraticBezierTo(0.205 * size.width, 0.71 * size.height, 0.35 * size.width, 0.705 * size.height)
+          ..quadraticBezierTo(0.35 * size.width, 0.705 * size.height, 0.50 * size.width, 0.695 * size.height)
+          ..quadraticBezierTo(0.50 * size.width, 0.695 * size.height, 0.65 * size.width, 0.68 * size.height);
+      case "ㅎ":
+        return Path()
+          ..moveTo(0.06 * size.width, 0.195 * size.height)
+          ..lineTo(0.615 * size.width, 0.195 * size.height)
+          ..moveTo(0.34 * size.width, 0.03 * size.height)
+          ..lineTo(0.34 * size.width, 0.195 * size.height)
+          ..addOval(Rect.fromCircle(
+            center: Offset(0.34 * size.width, 0.545 * size.height),
+            radius: 0.2 * size.width,
+          ));
+      case "ㅏ":
+        return path
+          ..moveTo(0.77 * size.width, 0.02 * size.height)
+          ..lineTo(0.77 * size.width, 0.98 * size.height)
+          ..moveTo(0.77 * size.width, 0.44 * size.height)
+          ..lineTo(0.95 * size.width, 0.44 * size.height);
+      case "ㅑ":
+        return path
+          ..moveTo(0.77 * size.width, 0.02 * size.height)
+          ..lineTo(0.77 * size.width, 0.98 * size.height)
+          ..moveTo(0.77 * size.width, 0.295 * size.height)
+          ..lineTo(0.95 * size.width, 0.295 * size.height)
+          ..moveTo(0.77 * size.width, 0.595 * size.height)
+          ..lineTo(0.95 * size.width, 0.595 * size.height);
+      case "ㅓ":
+        return path
+          ..moveTo(0.555 * size.width, 0.42 * size.height)
+          ..lineTo(0.82 * size.width, 0.42 * size.height)
+          ..moveTo(0.82 * size.width, 0.02 * size.height)
+          ..lineTo(0.82 * size.width, 0.98 * size.height);
+      case "ㅕ":
+        return path
+          ..moveTo(0.59 * size.width, 0.28 * size.height)
+          ..lineTo(0.825 * size.width, 0.28 * size.height)
+          ..moveTo(0.59 * size.width, 0.53 * size.height)
+          ..lineTo(0.83 * size.width, 0.53 * size.height)
+          ..moveTo(0.82 * size.width, 0.02 * size.height)
+          ..lineTo(0.82 * size.width, 0.98 * size.height);
+      default:
+        return Path();
+    }
   }
 
   Path extractPathUntilLength(Path originalPath, double length) {
