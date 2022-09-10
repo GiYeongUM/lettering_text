@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage>
                 },
                 child: GridView.count(
                   shrinkWrap: true,
-                  crossAxisCount: 3,
+                  crossAxisCount: 14,
                   children: [
                     KRTextAnimated(
                       color: Colors.black,
@@ -137,6 +137,48 @@ class _MyHomePageState extends State<MyHomePage>
                       size: 30,
                       fontType: FontType.notoSans,
                       text: "아",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "자",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "차",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "카",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "타",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "파",
+                    ),
+                    KRTextAnimated(
+                      color: Colors.black,
+                      progress: _animation,
+                      size: 30,
+                      fontType: FontType.notoSans,
+                      text: "하"
                     ),
                   ],
                 ),
