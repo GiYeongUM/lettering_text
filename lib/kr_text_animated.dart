@@ -228,6 +228,8 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
         return krWordPathTwoWord("ㅗ_2", size, krWordPathTwoWord("ㄴ_2", size, Path()));
       case "도":
         return krWordPathTwoWord("ㅗ_2", size, krWordPathTwoWord("ㄷ_2", size, Path()));
+      case "로":
+        return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㄹ_2", size, Path()));
 
       default:
         return Path();
@@ -465,6 +467,14 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
           ..lineTo(0.21 * size.width, 0.12 * size.height)
           ..lineTo(0.21 * size.width, 0.505 * size.height)
           ..lineTo(0.835 * size.width, 0.505 * size.height);
+      case "ㄹ_2":
+        return Path()
+          ..moveTo(0.17 * size.width, 0.11 * size.height)
+          ..lineTo(0.795 * size.width, 0.11 * size.height)
+          ..lineTo(0.795 * size.width, 0.34 * size.height)
+          ..lineTo(0.205 * size.width, 0.34 * size.height)
+          ..lineTo(0.205 * size.width, 0.575 * size.height)
+          ..lineTo(0.845 * size.width, 0.575 * size.height);
       case "ㅗ_1":
         return path
           ..moveTo(0.445 * size.width, 0.47 * size.height)
@@ -474,6 +484,12 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
       case "ㅗ_2":
         return path
           ..moveTo(0.50 * size.width, 0.47 * size.height)
+          ..lineTo(0.50 * size.width, 0.82 * size.height)
+          ..moveTo(0.065 * size.width, 0.82 * size.height)
+          ..lineTo(0.935 * size.width, 0.82 * size.height);
+      case "ㅗ_3":
+        return path
+          ..moveTo(0.50 * size.width, 0.60 * size.height)
           ..lineTo(0.50 * size.width, 0.82 * size.height)
           ..moveTo(0.065 * size.width, 0.82 * size.height)
           ..lineTo(0.935 * size.width, 0.82 * size.height);
