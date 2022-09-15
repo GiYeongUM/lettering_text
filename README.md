@@ -1,39 +1,71 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# lettering_text
+Flutter animated lettering texts
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+[![Flutter](https://img.shields.io/badge/Platform-Flutter-blue.svg)](https://flutter.dev/)
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## font lists
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+- 🔧 NotoSans_KR (Developing)
 
-## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## ⚡ [Installation](https://flutter.dev/docs/development/packages-and-plugins/using-packages)
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+// not yet updated
+```yaml
+dependencies:
+  lettering_text: ^<latest_version>
 ```
 
-## Additional information
+## 📷 GIF
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+<img width="308" alt="" src="https://github.com/GiYeongUM/lettering_text/raw/main/images/lettering_text.gif">
+
+
+## 💪 Use
+
+1. Set animation
+``` dart
+class _FooClassState extends State<FooClass> with SingleTickerProviderStateMixin {
+
+  late AnimationController _animationController;
+  late Animation<double> _animation;
+
+  @override
+  void initState()  {
+    _animationController = AnimationController(vsync: this, duration: const Duration(milliseconds: 700));
+    _animation = Tween<double>(begin: 0, end: 1).animate(CurvedAnimation(parent: _animationController, curve: Curves.easeInOutCirc));
+    super.initState();
+  }
+
+  void _showIcon() {
+    _animationController.forward();
+  }
+  
+  ...
+```
+
+2. add widget
+``` dart
+KRTextAnimated(
+  color: Colors.black,
+  progress: _animation,
+  size: 30,
+  fontType: FontType.notoSans,
+  text: "나",
+),
+```
+
+3. trigger widget animation
+``` dart
+_showAnimation()
+
+/// If you want to do the reverse
+/// do this
+/// _animationController.reverse();
+```
+
+## 📋Notice
+
+This package can be used for commercial purposes.
+We're going to add a new font every update.
+If you need any fonts, send to **eomky2005@gmail.com** via email or **Git Issue**.
