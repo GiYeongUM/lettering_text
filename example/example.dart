@@ -475,104 +475,104 @@ class _MyHomePageState extends State<MyHomePage>
                         fontType: FontType.notoSans,
                         text: "혀"
                     ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "고"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "노"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "도"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "로"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "모"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "보"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "소"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "오"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "조"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "초"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "코"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "토"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "포"
-                    // ),
-                    // KRTextAnimated(
-                    //     color: Colors.black,
-                    //     progress: _animation,
-                    //     size: 30,
-                    //     fontType: FontType.notoSans,
-                    //     text: "호"
-                    // ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "고"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "노"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "도"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "로"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "모"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "보"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "소"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "오"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "조"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "초"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "코"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "토"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "포"
+                    ),
+                    KRTextAnimated(
+                        color: Colors.black,
+                        progress: _animation,
+                        size: 30,
+                        fontType: FontType.notoSans,
+                        text: "호"
+                    ),
                   ],
                 ),
               ),
