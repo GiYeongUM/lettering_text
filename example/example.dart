@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage>
   @override
   void initState() {
     _animationController = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 1200));
+        vsync: this, duration: const Duration(milliseconds: 2000));
     _animation = Tween<double>(begin: 0, end: 1).animate(CurvedAnimation(
         parent: _animationController, curve: Curves.easeInOutCirc));
     isOn = false;
