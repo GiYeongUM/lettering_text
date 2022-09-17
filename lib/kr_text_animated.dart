@@ -163,63 +163,63 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
 
     /// 거 ~ 허
       case "거":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㄱ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㄱ_1", size, Path()));
       case "너":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㄴ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㄴ_1", size, Path()));
       case "더":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㄷ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㄷ_1", size, Path()));
       case "러":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㄹ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㄹ_1", size, Path()));
       case "머":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅁ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㅁ_1", size, Path()));
       case "버":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅂ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㅂ_1", size, Path()));
       case "서":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅅ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㅅ_1", size, Path()));
       case "어":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅇ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㅇ_1", size, Path()));
       case "저":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅈ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㅈ_1", size, Path()));
       case "처":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅊ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㅊ_1", size, Path()));
       case "커":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅋ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㅋ_1", size, Path()));
       case "터":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅌ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㅌ_1", size, Path()));
       case "퍼":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅍ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_1", size, krWordPathTwoWord("ㅍ_1", size, Path()));
       case "허":
-        return krWordPathTwoWord("ㅓ", size, krWordPathTwoWord("ㅎ_1", size, Path()));
+        return krWordPathTwoWord("ㅓ_2", size, krWordPathTwoWord("ㅎ_1", size, Path()));
 
       /// 겨 ~ 혀
       case "겨":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㄱ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㄱ_1", size, Path()));
       case "녀":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㄴ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㄴ_1", size, Path()));
       case "뎌":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㄷ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㄷ_1", size, Path()));
       case "려":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㄹ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㄹ_1", size, Path()));
       case "며":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅁ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㅁ_1", size, Path()));
       case "벼":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅂ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㅂ_1", size, Path()));
       case "셔":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅅ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㅅ_1", size, Path()));
       case "여":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅇ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㅇ_1", size, Path()));
       case "져":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅈ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㅈ_1", size, Path()));
       case "쳐":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅊ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㅊ_1", size, Path()));
       case "켜":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅋ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㅋ_1", size, Path()));
       case "텨":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅌ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㅌ_1", size, Path()));
       case "펴":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅍ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_1", size, krWordPathTwoWord("ㅍ_1", size, Path()));
       case "혀":
-        return krWordPathTwoWord("ㅕ", size, krWordPathTwoWord("ㅎ_1", size, Path()));
+        return krWordPathTwoWord("ㅕ_2", size, krWordPathTwoWord("ㅎ_1", size, Path()));
 
       /// 고 ~ 호
       case "고":
@@ -232,6 +232,10 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
         return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㄹ_2", size, Path()));
       case "모":
         return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㅁ_2", size, Path()));
+      case "보":
+        return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㅂ_2", size, Path()));
+      case "소":
+        return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㅅ_2", size, Path()));
 
       default:
         return Path();
@@ -421,34 +425,6 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
             center: Offset(0.34 * size.width, 0.545 * size.height),
             radius: 0.2 * size.width,
           ));
-      case "ㅏ":
-        return path
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.44 * size.height)
-          ..lineTo(0.95 * size.width, 0.44 * size.height);
-      case "ㅑ":
-        return path
-          ..moveTo(0.77 * size.width, 0.02 * size.height)
-          ..lineTo(0.77 * size.width, 0.98 * size.height)
-          ..moveTo(0.77 * size.width, 0.295 * size.height)
-          ..lineTo(0.95 * size.width, 0.295 * size.height)
-          ..moveTo(0.77 * size.width, 0.595 * size.height)
-          ..lineTo(0.95 * size.width, 0.595 * size.height);
-      case "ㅓ":
-        return path
-          ..moveTo(0.555 * size.width, 0.42 * size.height)
-          ..lineTo(0.82 * size.width, 0.42 * size.height)
-          ..moveTo(0.82 * size.width, 0.02 * size.height)
-          ..lineTo(0.82 * size.width, 0.98 * size.height);
-      case "ㅕ":
-        return path
-          ..moveTo(0.59 * size.width, 0.28 * size.height)
-          ..lineTo(0.825 * size.width, 0.28 * size.height)
-          ..moveTo(0.59 * size.width, 0.53 * size.height)
-          ..lineTo(0.83 * size.width, 0.53 * size.height)
-          ..moveTo(0.82 * size.width, 0.02 * size.height)
-          ..lineTo(0.82 * size.width, 0.98 * size.height);
       case "ㄱ_2":
         return Path()
           ..moveTo(0.16 * size.width, 0.14 * size.height)
@@ -460,9 +436,9 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
           ..quadraticBezierTo(0.78 * size.width, 0.515 * size.height, 0.76 * size.width, 0.64 * size.height);
       case "ㄴ_2":
         return Path()
-        ..moveTo(0.205 * size.width, 0.095 * size.height)
-        ..lineTo(0.205 * size.width, 0.49 * size.height)
-        ..lineTo(0.835 * size.width, 0.49 * size.height);
+          ..moveTo(0.205 * size.width, 0.095 * size.height)
+          ..lineTo(0.205 * size.width, 0.49 * size.height)
+          ..lineTo(0.835 * size.width, 0.49 * size.height);
       case "ㄷ_2":
         return Path()
           ..moveTo(0.82 * size.width, 0.12 * size.height)
@@ -486,6 +462,71 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
           ..lineTo(0.80 * size.width, 0.515 * size.height)
           ..moveTo(0.195 * size.width, 0.515 * size.height)
           ..lineTo(0.80 * size.width, 0.515 * size.height);
+      case "ㅂ_2":
+        return Path()
+          ..moveTo(0.20 * size.width, 0.09 * size.height)
+          ..lineTo(0.20 * size.width, 0.54 * size.height)
+          ..moveTo(0.795 * size.width, 0.09 * size.height)
+          ..lineTo(0.795 * size.width, 0.54 * size.height)
+          ..moveTo(0.20 * size.width, 0.285 * size.height)
+          ..lineTo(0.795 * size.width, 0.285 * size.height)
+          ..moveTo(0.20 * size.width, 0.54 * size.height)
+          ..lineTo(0.795 * size.width, 0.54 * size.height);
+      case "ㅅ_2":
+        return Path()
+          ..moveTo(0.5 * size.width, 0.085 * size.height)
+          ..lineTo(0.5 * size.width, 0.24 * size.height)
+          ..quadraticBezierTo(0.5 * size.width, 0.24 * size.height, 0.44 * size.width, 0.30 * size.height)
+          ..quadraticBezierTo(0.44 * size.width, 0.30 * size.height, 0.39 * size.width, 0.37 * size.height)
+          ..quadraticBezierTo(0.39 * size.width, 0.37 * size.height, 0.27 * size.width, 0.46 * size.height)
+          ..quadraticBezierTo(0.27 * size.width, 0.46 * size.height, 0.13 * size.width, 0.52 * size.height)
+          ..moveTo(0.5 * size.width, 0.24 * size.height)
+          ..quadraticBezierTo(0.5 * size.width, 0.24 * size.height, 0.56 * size.width, 0.30 * size.height)
+          ..quadraticBezierTo(0.56 * size.width, 0.30 * size.height, 0.61 * size.width, 0.37 * size.height)
+          ..quadraticBezierTo(0.61 * size.width, 0.37 * size.height, 0.69 * size.width, 0.46 * size.height)
+          ..quadraticBezierTo(0.69 * size.width, 0.46 * size.height, 0.83 * size.width, 0.52 * size.height);
+      case "ㅏ":
+        return path
+          ..moveTo(0.77 * size.width, 0.02 * size.height)
+          ..lineTo(0.77 * size.width, 0.98 * size.height)
+          ..moveTo(0.77 * size.width, 0.44 * size.height)
+          ..lineTo(0.95 * size.width, 0.44 * size.height);
+      case "ㅑ":
+        return path
+          ..moveTo(0.77 * size.width, 0.02 * size.height)
+          ..lineTo(0.77 * size.width, 0.98 * size.height)
+          ..moveTo(0.77 * size.width, 0.295 * size.height)
+          ..lineTo(0.95 * size.width, 0.295 * size.height)
+          ..moveTo(0.77 * size.width, 0.595 * size.height)
+          ..lineTo(0.95 * size.width, 0.595 * size.height);
+      case "ㅓ_1":
+        return path
+          ..moveTo(0.570 * size.width, 0.42 * size.height)
+          ..lineTo(0.82 * size.width, 0.42 * size.height)
+          ..moveTo(0.82 * size.width, 0.02 * size.height)
+          ..lineTo(0.82 * size.width, 0.98 * size.height);
+      case "ㅓ_2":
+        return path
+          ..moveTo(0.63 * size.width, 0.42 * size.height)
+          ..lineTo(0.82 * size.width, 0.42 * size.height)
+          ..moveTo(0.82 * size.width, 0.02 * size.height)
+          ..lineTo(0.82 * size.width, 0.98 * size.height);
+      case "ㅕ_1":
+        return path
+          ..moveTo(0.59 * size.width, 0.28 * size.height)
+          ..lineTo(0.825 * size.width, 0.28 * size.height)
+          ..moveTo(0.59 * size.width, 0.53 * size.height)
+          ..lineTo(0.83 * size.width, 0.53 * size.height)
+          ..moveTo(0.82 * size.width, 0.02 * size.height)
+          ..lineTo(0.82 * size.width, 0.98 * size.height);
+      case "ㅕ_2":
+        return path
+          ..moveTo(0.63 * size.width, 0.37 * size.height)
+          ..lineTo(0.83 * size.width, 0.37 * size.height)
+          ..moveTo(0.63 * size.width, 0.62 * size.height)
+          ..lineTo(0.83 * size.width, 0.62 * size.height)
+          ..moveTo(0.82 * size.width, 0.02 * size.height)
+          ..lineTo(0.82 * size.width, 0.98 * size.height);
       case "ㅗ_1":
         return path
           ..moveTo(0.445 * size.width, 0.47 * size.height)
