@@ -236,6 +236,8 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
         return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㅂ_2", size, Path()));
       case "소":
         return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㅅ_2", size, Path()));
+      case "오":
+        return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㅇ_2", size, Path()));
 
       default:
         return Path();
@@ -485,6 +487,25 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
           ..quadraticBezierTo(0.56 * size.width, 0.30 * size.height, 0.61 * size.width, 0.37 * size.height)
           ..quadraticBezierTo(0.61 * size.width, 0.37 * size.height, 0.69 * size.width, 0.46 * size.height)
           ..quadraticBezierTo(0.69 * size.width, 0.46 * size.height, 0.83 * size.width, 0.52 * size.height);
+      case "ㅇ_2":
+        return Path()
+          ..moveTo(0.5 * size.width, 0.10 * size.height)
+          ..quadraticBezierTo(0.5 * size.width, 0.10 * size.height, 0.395 * size.width, 0.115 * size.height)
+          ..quadraticBezierTo(0.395 * size.width, 0.115 * size.height, 0.30 * size.width, 0.15 * size.height)
+          ..quadraticBezierTo(0.30 * size.width, 0.15 * size.height, 0.22 * size.width, 0.22 * size.height)
+          ..quadraticBezierTo(0.22 * size.width, 0.22 * size.height, 0.18 * size.width, 0.33 * size.height)
+          ..quadraticBezierTo(0.18 * size.width, 0.33 * size.height, 0.22 * size.width, 0.44 * size.height)
+          ..quadraticBezierTo(0.22 * size.width, 0.44 * size.height, 0.30 * size.width, 0.51 * size.height)
+          ..quadraticBezierTo(0.30 * size.width, 0.51 * size.height, 0.40 * size.width, 0.54 * size.height)
+          ..quadraticBezierTo(0.40 * size.width, 0.54 * size.height, 0.50 * size.width, 0.56 * size.height)
+          ..quadraticBezierTo(0.50 * size.width, 0.56 * size.height, 0.61 * size.width, 0.54 * size.height)
+          ..quadraticBezierTo(0.61 * size.width, 0.54 * size.height, 0.71 * size.width, 0.50 * size.height)
+          ..quadraticBezierTo(0.71 * size.width, 0.50 * size.height, 0.785 * size.width, 0.425 * size.height)
+          ..quadraticBezierTo(0.785 * size.width, 0.425 * size.height, 0.82 * size.width, 0.33 * size.height)
+          ..quadraticBezierTo(0.82 * size.width, 0.33 * size.height, 0.785 * size.width, 0.225 * size.height)
+          ..quadraticBezierTo(0.785 * size.width, 0.225 * size.height, 0.70 * size.width, 0.15 * size.height)
+          ..quadraticBezierTo(0.70 * size.width, 0.15 * size.height, 0.605 * size.width, 0.115 * size.height)
+          ..quadraticBezierTo(0.605 * size.width, 0.115 * size.height, 0.5 * size.width, 0.10 * size.height);
       case "ㅏ":
         return path
           ..moveTo(0.77 * size.width, 0.02 * size.height)
