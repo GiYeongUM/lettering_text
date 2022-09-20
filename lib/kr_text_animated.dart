@@ -238,6 +238,18 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
         return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㅅ_2", size, Path()));
       case "오":
         return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㅇ_2", size, Path()));
+      case "조":
+        return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㅈ_2", size, Path()));
+      case "초":
+        return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㅊ_2", size, Path()));
+      case "코":
+        return krWordPathTwoWord("ㅗ_1", size, krWordPathTwoWord("ㅋ_2", size, Path()));
+      case "토":
+        return krWordPathTwoWord("ㅗ_2", size, krWordPathTwoWord("ㅌ_2", size, Path()));
+      case "포":
+        return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㅍ_2", size, Path()));
+      case "호":
+        return krWordPathTwoWord("ㅗ_3", size, krWordPathTwoWord("ㅎ_2", size, Path()));
 
       default:
         return Path();
@@ -506,6 +518,88 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
           ..quadraticBezierTo(0.785 * size.width, 0.225 * size.height, 0.70 * size.width, 0.15 * size.height)
           ..quadraticBezierTo(0.70 * size.width, 0.15 * size.height, 0.605 * size.width, 0.115 * size.height)
           ..quadraticBezierTo(0.605 * size.width, 0.115 * size.height, 0.5 * size.width, 0.10 * size.height);
+      case "ㅈ_2":
+        return Path()
+          ..moveTo(0.14 * size.width, 0.13 * size.height)
+          ..lineTo(0.86 * size.width, 0.13 * size.height)
+          ..moveTo(0.5 * size.width, 0.13 * size.height)
+          ..lineTo(0.5 * size.width, 0.24 * size.height)
+          ..quadraticBezierTo(0.5 * size.width, 0.24 * size.height, 0.44 * size.width, 0.30 * size.height)
+          ..quadraticBezierTo(0.44 * size.width, 0.30 * size.height, 0.39 * size.width, 0.37 * size.height)
+          ..quadraticBezierTo(0.39 * size.width, 0.37 * size.height, 0.27 * size.width, 0.46 * size.height)
+          ..quadraticBezierTo(0.27 * size.width, 0.46 * size.height, 0.13 * size.width, 0.52 * size.height)
+          ..moveTo(0.5 * size.width, 0.24 * size.height)
+          ..quadraticBezierTo(0.5 * size.width, 0.24 * size.height, 0.56 * size.width, 0.30 * size.height)
+          ..quadraticBezierTo(0.56 * size.width, 0.30 * size.height, 0.61 * size.width, 0.37 * size.height)
+          ..quadraticBezierTo(0.61 * size.width, 0.37 * size.height, 0.69 * size.width, 0.46 * size.height)
+          ..quadraticBezierTo(0.69 * size.width, 0.46 * size.height, 0.83 * size.width, 0.52 * size.height);
+      case "ㅊ_2":
+        return Path()
+          ..moveTo(0.14 * size.width, 0.17 * size.height)
+          ..lineTo(0.86 * size.width, 0.17 * size.height)
+          ..moveTo(0.5 * size.width, 0.02 * size.height)
+          ..lineTo(0.5 * size.width, 0.24 * size.height)
+          ..quadraticBezierTo(0.5 * size.width, 0.24 * size.height, 0.44 * size.width, 0.30 * size.height)
+          ..quadraticBezierTo(0.44 * size.width, 0.30 * size.height, 0.39 * size.width, 0.37 * size.height)
+          ..quadraticBezierTo(0.39 * size.width, 0.37 * size.height, 0.27 * size.width, 0.46 * size.height)
+          ..quadraticBezierTo(0.27 * size.width, 0.46 * size.height, 0.13 * size.width, 0.52 * size.height)
+          ..moveTo(0.5 * size.width, 0.24 * size.height)
+          ..quadraticBezierTo(0.5 * size.width, 0.24 * size.height, 0.56 * size.width, 0.30 * size.height)
+          ..quadraticBezierTo(0.56 * size.width, 0.30 * size.height, 0.61 * size.width, 0.37 * size.height)
+          ..quadraticBezierTo(0.61 * size.width, 0.37 * size.height, 0.69 * size.width, 0.46 * size.height)
+          ..quadraticBezierTo(0.69 * size.width, 0.46 * size.height, 0.83 * size.width, 0.52 * size.height);
+      case "ㅋ_2":
+        return Path()
+          ..moveTo(0.16 * size.width, 0.14 * size.height)
+          ..lineTo(0.795 * size.width, 0.14 * size.height)
+          ..quadraticBezierTo(0.795 * size.width, 0.14 * size.height, 0.795 * size.width, 0.265 * size.height)
+          ..quadraticBezierTo(0.795 * size.width, 0.265 * size.height, 0.79 * size.width, 0.39 * size.height)
+          ..quadraticBezierTo(0.79 * size.width, 0.39 * size.height, 0.785 * size.width, 0.455 * size.height)
+          ..quadraticBezierTo(0.785 * size.width, 0.455 * size.height, 0.78 * size.width, 0.515 * size.height)
+          ..quadraticBezierTo(0.78 * size.width, 0.515 * size.height, 0.76 * size.width, 0.64 * size.height)
+          ..moveTo(0.16 * size.width, 0.37 * size.height)
+          ..lineTo(0.79 * size.width, 0.34 * size.height);
+      case "ㅌ_2":
+        return Path()
+          ..moveTo(0.82 * size.width, 0.12 * size.height)
+          ..lineTo(0.21 * size.width, 0.12 * size.height)
+          ..lineTo(0.21 * size.width, 0.505 * size.height)
+          ..lineTo(0.835 * size.width, 0.505 * size.height)
+          ..moveTo(0.21 * size.width, 0.30 * size.height)
+          ..lineTo(0.80 * size.width, 0.30 * size.height);
+      case "ㅍ_2":
+        return Path()
+          ..moveTo(0.15 * size.width, 0.136 * size.height)
+          ..lineTo(0.82 * size.width, 0.135 * size.height)
+          ..moveTo(0.33 * size.width, 0.135 * size.height)
+          ..lineTo(0.33 * size.width, 0.535 * size.height)
+          ..moveTo(0.665 * size.width, 0.135 * size.height)
+          ..lineTo(0.665 * size.width, 0.535 * size.height)
+          ..moveTo(0.15 * size.width, 0.535 * size.height)
+          ..lineTo(0.82 * size.width, 0.535 * size.height);
+      case "ㅎ_2":
+        return Path()
+          ..moveTo(0.5 * size.width, 0.03 * size.height)
+          ..lineTo(0.5 * size.width, 0.185 * size.height)
+          ..moveTo(0.105 * size.width, 0.185 * size.height)
+          ..lineTo(0.895 * size.width, 0.185 * size.height)
+          ..moveTo(0.50 * size.width, 0.325 * size.height)
+          ..quadraticBezierTo(0.5 * size.width, 0.325 * size.height, 0.405 * size.width, 0.335 * size.height)
+          ..quadraticBezierTo(0.405 * size.width, 0.335 * size.height, 0.315 * size.width, 0.355 * size.height)
+          ..quadraticBezierTo(0.315 * size.width, 0.355 * size.height, 0.25 * size.width, 0.40 * size.height)
+          ..quadraticBezierTo(0.25 * size.width, 0.40 * size.height, 0.22 * size.width, 0.475 * size.height)
+          ..quadraticBezierTo(0.22 * size.width, 0.475 * size.height, 0.25 * size.width, 0.56 * size.height)
+          ..quadraticBezierTo(0.25 * size.width, 0.56 * size.height, 0.315 * size.width, 0.6 * size.height)
+          ..quadraticBezierTo(0.315 * size.width, 0.6 * size.height, 0.405 * size.width, 0.625 * size.height)
+          ..quadraticBezierTo(0.405 * size.width, 0.625 * size.height, 0.50 * size.width, 0.63 * size.height)
+          ..quadraticBezierTo(0.50 * size.width, 0.63 * size.height, 0.595 * size.width, 0.62 * size.height)
+          ..quadraticBezierTo(0.595 * size.width, 0.62 * size.height, 0.685 * size.width, 0.60 * size.height)
+          ..quadraticBezierTo(0.685 * size.width, 0.60 * size.height, 0.75 * size.width, 0.55 * size.height)
+          ..quadraticBezierTo(0.75 * size.width, 0.55 * size.height, 0.775 * size.width, 0.475 * size.height)
+          ..quadraticBezierTo(0.775 * size.width, 0.475 * size.height, 0.74 * size.width, 0.40 * size.height)
+          ..quadraticBezierTo(0.74 * size.width, 0.40 * size.height, 0.685 * size.width, 0.335 * size.height)
+          ..quadraticBezierTo(0.685 * size.width, 0.335 * size.height, 0.60 * size.width, 0.33 * size.height)
+          ..quadraticBezierTo(0.60 * size.width, 0.33 * size.height, 0.5 * size.width, 0.325 * size.height);
       case "ㅏ":
         return path
           ..moveTo(0.77 * size.width, 0.02 * size.height)
@@ -562,7 +656,7 @@ class AnimatedNotoSansKRPathPainter extends CustomPainter {
           ..lineTo(0.935 * size.width, 0.82 * size.height);
       case "ㅗ_3":
         return path
-          ..moveTo(0.50 * size.width, 0.55 * size.height)
+          ..moveTo(0.50 * size.width, 0.59 * size.height)
           ..lineTo(0.50 * size.width, 0.82 * size.height)
           ..moveTo(0.065 * size.width, 0.82 * size.height)
           ..lineTo(0.935 * size.width, 0.82 * size.height);
